@@ -1,2 +1,15 @@
 # Project exclude paths
 /.venv/
+# Исключаем SQLite базы данных
+*.sqlite3
+*.sqlite
+*.db
+# Для Django (дополнительные исключения)
+/db.sqlite3
+/db.sqlite3-journal
+Дополнительно
+# Django
+*.pyc
+__pycache__/
+*.swp
+*.swo
